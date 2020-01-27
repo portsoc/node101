@@ -1,0 +1,18 @@
+{
+  "name": "ws_node",
+  "version": "1.0.0",
+  "description": "first steps with node",
+  "main": "test.js",
+  "scripts": {
+    "test": "node ./node_modules/qunit/bin/qunit.js test.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Rich Boakes <rjb@boakes.org> (http://boakes.org/)",
+  "license": "ISC",
+  "devDependencies": {
+    "qunit": "^2.8.0"
+  },
+  "repository": "https://github.com/portsoc/ws_node.git"
+}
