@@ -24,7 +24,7 @@ cd node101
 
 Install
 -------
-s
+
 The unit tests (and some of the examples) make use of library modules that must be installed.  You can achieve this with a single command:
 
 ```bash
