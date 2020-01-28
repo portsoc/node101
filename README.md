@@ -7,24 +7,24 @@ Downloading
 To download the code, either use git (the preferred option):
 
 ```bash
-git clone https://github.com/portsoc/ws_node.git
-cd ws_node
+git clone https://github.com/portsoc/node101.git
+cd node101
 ```
 
 If at all possible, we recommend you use git to download code rather than zips of a repository.  This is prefereable because if the repo is updated, then syncing those changes requires just one command (`git pull`) and usually any merging can be done automatically.  Git is very powerful and we heartily encourages you to become familiar with it.
 
 
-Alternatively you may download and unpack the [zip](https://github.com/portsoc/ws_node/archive/master.zip)
+Alternatively you may download and unpack the [zip](https://github.com/portsoc/node101/archive/master.zip)
 which on linux can be achieved using
 ```bash
-wget https://github.com/portsoc/ws_node/archive/master.zip
+wget https://github.com/portsoc/node101/archive/master.zip
 unzip master.zip
-cd ws_node-master
+cd node101
 ```
 
 Install
 -------
-
+s
 The unit tests (and some of the examples) make use of library modules that must be installed.  You can achieve this with a single command:
 
 ```bash
