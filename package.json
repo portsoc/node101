@@ -1,18 +1,19 @@
 {
   "name": "node101",
   "version": "1.0.0",
-  "description": "first steps with node",
+  "description": "first steps with node and ES6 modules",
   "main": "test.js",
+  "type": "module",
   "scripts": {
-    "test": "node ./node_modules/qunit/bin/qunit.js test.js"
+    "start": "npm test",
+    "test": "node test"
   },
   "keywords": [
-    "node"
+    "node", "es6", "modules", "unit test"
   ],
   "author": "Rich Boakes <rjb@boakes.org> (http://boakes.org/)",
   "license": "ISC",
   "devDependencies": {
-    "qunit": "^2.8.0"
   },
   "repository": "https://github.com/portsoc/ws_node.git"
 }
