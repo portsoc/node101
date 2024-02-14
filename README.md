@@ -22,22 +22,13 @@ unzip master.zip
 cd node101
 ```
 
-Install
--------
-
-The unit tests (and some of the examples) make use of library modules that must be installed.  You can achieve this with a single command:
-
-```bash
-npm i
-```
-
 Running Examples
 ----------------
 
 Examples are placed in the `examples` folder for you to investigate, to run the hello world example (`hw.js`) you could type:
 
 ```bash
-cd examples
+cd examples/1-hello-world
 node hw
 ```
 
@@ -45,15 +36,10 @@ node hw
 Running Tests
 -------------
 
-We continue to use QUnit to define tests that **you** should attempt to complete.
+These are unit tests that **you** should attempt to complete.
+The difference with previous unit tests is that there is no browser – you can test everything from the command line by typing:
 
-The difference now is that there is no browser – you can test everything from the command line :
-
-
-Run the tests by typing:
-
-  ```bash
-  npm test
-  ```
-
-Inside `test.js` you will find helpful comments that tell you what the tests expect.
+```bash
+npm test
+```
+Inside `test.js` you will find helpful code that tells you what the tests expect.
