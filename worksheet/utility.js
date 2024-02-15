@@ -1,8 +1,8 @@
 /**
  * The subtract function is complete and ready for use.
  */
-export function subtract(a,b) {
-  return a-b;
+export function subtract(a, b) {
+  return a - b;
 }
 
 /**
@@ -11,6 +11,6 @@ export function subtract(a,b) {
  * "export" to the function definition (as seen in the
  * subtract example above)
  */
-function add(a,b) {
-  return a+b;
+function add(a, b) {
+  return a + b;
 }
