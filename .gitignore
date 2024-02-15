@@ -1,3 +1,5 @@
 node_modules
 .DS_Store
 */solution.js
+examples/6-files/*.txt
+examples/6-files/*.json
