@@ -9,11 +9,13 @@
     "test": "node test"
   },
   "keywords": [
-    "node", "es6", "modules", "unit test"
+    "node",
+    "es6",
+    "modules",
+    "unit test"
   ],
   "author": "Rich Boakes <rjb@boakes.org> (http://boakes.org/)",
   "license": "ISC",
-  "devDependencies": {
-  },
-  "repository": "https://github.com/portsoc/ws_node.git"
+  "repository": "https://github.com/portsoc/ws_node.git",
+  "dependencies": {}
 }
