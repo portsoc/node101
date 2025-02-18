@@ -6,14 +6,14 @@
  * @returns {Object} - An object with the first column as the key
  */
 export function cleanup(data) {
-
   // create an object to store the results
   const result = {
     rows: {},
     before: 0,
     after: 0,
-    removed:0
-  }
+    removed: 0
+  };
+
   const rows = data.split('\n');
   result.before = rows.length;
 
