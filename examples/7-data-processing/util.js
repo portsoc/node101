@@ -11,7 +11,7 @@ export function cleanup(data) {
     rows: {},
     before: 0,
     after: 0,
-    removed: 0
+    removed: 0,
   };
 
   const rows = data.split('\n');
