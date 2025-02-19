@@ -1,17 +1,4 @@
 /*
- * Read a CSV file, and report on  whether there
- * are duplicate entries in the first column.
- *
- * Optionally (if an output file is specified)
- * perform a cleanup operation on the data where
- * the last instance of a duplicate is kept, and
- * writes the resulting data to a new CSV file.
- * 
- * e.g. node cleanup.js students.csv cleaned.csv
- */
-
-
-/*
  * This script reads a CSV file and checks for duplicate entries
  * in the first column.  If an output file is specified, it performs
  * a cleanup operation where only the last instance of each duplicate
@@ -28,6 +15,7 @@
  *   [<output-filename>] Optional. The path to the output
  *                       CSV file where cleaned data will be saved.
  */
+
 if (process.argv.length < 3) {
   console.log('Usage: node cleanup <filename> [<output-filename>]');
   process.exit(1);
